@@ -1,0 +1,62 @@
+# Novel source files (copyrighted)
+*.txt
+!requirements.txt
+
+# Generated outputs
+chapters/
+chapters_index.txt
+outline/
+outline_rhythm/
+outline_final/
+outline_arcs.md
+outline_arc_patterns.md
+outline_index.md
+settings/
+settings_final/
+name_mappings/
+name_mappings_final/
+rewrite/
+rewrite_backup/
+summaries/
+summaries_backup/
+characters_state/
+rewrite_index.txt
+_parallel/
+
+# Progress & quality logs
+progress.md
+restructure_progress.md
+quality_log.md
+check_report.md
+rewrite_inconsistencies.md
+naming_check_report.md
+
+# Generated configs
+forbidden_terms.md
+forbidden_chars.txt
+theme_baseline.md
+book_meta.md
+
+# Session control artifacts
+NEED_NEW_SESSION.txt
+NEED_THEME.txt
+BLOCKED.txt
+MIGRATION_DONE.txt
+
+# Merge scripts (generated per-project)
+merge_parallel_outputs.py
+merge_parallel_outputs.ps1
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
