@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文小说与短剧改写"
+  short_description: "按载体执行故事重构、正文创作、自然表达修订与分层编辑复核"
+  default_prompt: "使用 $novel-rewriting-toolkit 继续当前中文故事项目，沿用已有方向和授权，完成本轮写作与编辑复核。"

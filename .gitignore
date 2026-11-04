@@ -1,6 +1,39 @@
 # Novel source files (copyrighted)
 *.txt
 !requirements.txt
+*.docx
+*.pdf
+*.jsonl
+
+# Private projects, sources, manuscripts and delivery versions
+/projects/
+/workspaces/
+/input/
+/source_units/
+/analysis/
+/design/
+/body/
+/review/
+/versions/
+/delivery/
+/direction_a/
+/project.md
+/continuity.md
+/names.json
+/episode_plan.json
+/episodes.tsv
+external_style_samples/*
+!external_style_samples/README.md
+themes/*
+!themes/.gitkeep
+
+# Credentials and local state
+.env
+.env.*
+*.pem
+*.key
+*.sqlite*
+*.db
 
 # Generated outputs
 chapters/
